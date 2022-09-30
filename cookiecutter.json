@@ -1,8 +1,8 @@
 {
-    "package_name": "cookiecutter-pypackage",
-    "package_description": "Minimal cookiecutter template for Python packages",
+    "package_name": "my-awesome-package",
+    "package_description": "This package is awesome",
     "author_name": "Anonymous",
-    "author_email": "Anonymous@aol.com",
+    "author_email": "Anonymous@gmail.com",
     "project_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
     "package_url": "https://github.com/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}"
 }
