@@ -1,3 +1,2 @@
-# https://stackoverflow.com/a/63743115
-# install dependencies as defined in setup.cfg but not the package itself
-pip install . && pip uninstall `python setup.py --name`
+# install in local dev mode
+pip install -e
