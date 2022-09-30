@@ -12,7 +12,7 @@ pip install {{ cookiecutter.package_name }}
 simple code sample
 
 ```python
-from {{ cookiecutter.project_slug }} import hello_world
+from {{ cookiecutter.project_slug }}.hello_world import hello_world
 hello_world()
 ```
 
