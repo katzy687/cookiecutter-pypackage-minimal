@@ -3,6 +3,6 @@
     "package_description": "Minimal cookiecutter template for Python packages",
     "author_name": "Anonymous",
     "author_email": "Anonymous@aol.com",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
     "package_url": "https://github.com/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}"
 }
