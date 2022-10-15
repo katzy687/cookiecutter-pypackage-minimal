@@ -1,10 +1,10 @@
 {
     "package_name": "my-awesome-package",
     "package_description": "This package is awesome",
-    "project_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "package_url": "https://github.com/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}",
     "author_name": "Anonymous",
     "author_email": "Anonymous@gmail.com",
+    "project_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "package_url": "https://github.com/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}",
     "python_version": "3.9",
     "tox_env": "{{ cookiecutter.python_version.replace('.','') }}"
 }
