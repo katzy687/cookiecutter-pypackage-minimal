@@ -1,2 +1,1 @@
-# install in local dev mode
-pip install -e
+pip install -e .
