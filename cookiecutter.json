@@ -1,6 +1,5 @@
 {
     "package_name": "my-awesome-package",
-    "_package_name": "{{ cookiecutter.package_name.lower().replace(' ', '-') }}",
     "package_description": "This package is awesome",
     "author_name": "Anonymous",
     "author_email": "Anonymous@gmail.com",
