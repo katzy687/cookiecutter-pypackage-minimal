@@ -38,10 +38,10 @@ jobs:
           echo "Error: Tag and version are not equal, cannot create a release"
           exit 1
         fi
-    - name: Set up Python {{ cookiecutter.python_version }} 🐍
+    - name: Set up Python 3.9 🐍
       uses: actions/setup-python@v2
       with:
-        python-version: '{{ cookiecutter.python_version }}'
+        python-version: '3.9'
 
     - name: Install pypa/build 👷
       run: >-

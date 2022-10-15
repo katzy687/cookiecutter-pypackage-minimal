@@ -16,6 +16,8 @@ See cookicutter.json for all parameters that are passed into the template.
 
 Defaults to python 3.9. Can provide a custom override and will be forwarded to multiple files in template.
 The full list of PyPI classifiers can be found [here](https://pypi.org/classifiers/).
+- NOTE: due to Jinja Templating restriction, can't parametrize python version inside `.github` workflow files
+  - Change manually if needed after template generation
 
 ### Testing
 

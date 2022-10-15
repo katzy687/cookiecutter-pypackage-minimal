@@ -7,5 +7,8 @@
     "package_url": "https://github.com/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}",
     "python_version": "3.9",
     "tox_env": "{{ cookiecutter.python_version.replace('.','') }}",
-    "_copy_without_render": ["changelog_config.json"]
+    "_copy_without_render": [
+        "changelog_config.json",
+        ".github/workflows/*"
+    ]
 }
