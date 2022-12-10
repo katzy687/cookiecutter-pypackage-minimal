@@ -5,8 +5,13 @@ packages.
 
 ### Usage
 
+will need cookiecutter
 ```commandline
   pip install cookiecutter
+```
+
+create local repo using the cookiecutter template in this repo
+```commandline
   cookiecutter https://github.com/katzy687/cookiecutter-pypackage-minimal.git
 ```
 
