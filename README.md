@@ -44,7 +44,7 @@ See `.pre-commit-config.yaml` file for default linter settings and to modify to 
 - Pushing tags that start with "v" will kick off release workflow.
 - To upload package to Pypi, must add Repository secrets `PYPI_API_TOKEN` and `TEST_PYPI_TOKEN`
 - [Release Changelog Builder](https://github.com/marketplace/actions/release-changelog-builder) for adding PR details to
-  releases. Add more labels to `changelog_config.json`
+  releases. Add more labels to `changelog_config.json` and then confirm that labels exist in repo.
 - Add some [Git Emojis](https://gitmoji.dev/) to commits and CI jobs ⚡️
 
 ### Versioning And Release

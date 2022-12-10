@@ -1,5 +1,5 @@
+black
 pytest
 pylint
 flake8
-pre-commit
 tox
